@@ -1,0 +1,47 @@
+/* styles.css */
+.our-project-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    color: #d86363; 
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.image-section {
+    flex: 1;
+    padding: 10px;
+}
+button {
+    padding: 10px 15px;
+    background-color: #e91e63; 
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #d81b60; 
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.content-item {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.content-item h3 {
+    color: #e91e63; /* Pink color for the headings */
+}
